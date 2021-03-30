@@ -5,6 +5,7 @@ import './Navbar.css';
 import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
+import Logo from '../../pondith1.png';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,7 +37,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <MdFingerprint className='navbar-icon' />
+              <img src={Logo} style={{height:"50px",marginRight:"15px"}}/>
               PONDITH
             </Link>
             <div className='menu-icon' onClick={handleClick}>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../Button';
 import { Link } from 'react-router-dom';
+import Logo from '../../../pondith1.png';
 import {
   FaFacebook,
   FaInstagram,
@@ -72,7 +73,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
+            <img src={Logo} style={{height:"50px",marginRight:"15px"}}/>
               PONDITH
             </Link>
           </div>
