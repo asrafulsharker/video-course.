@@ -1,0 +1,51 @@
+.reg-type{
+    width: 70%;
+    margin: auto auto;
+    height: 50px;
+    margin-left: 15%;
+    padding-left: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(7, 162, 201);
+}
+.reg-btn{
+    width: 70%;
+    margin: auto auto;
+    height: 50px;
+    margin-left: 15%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(7, 162, 201);
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.log-btn{
+    width: 70%;
+    margin: auto auto;
+    height: 50px;
+    margin-left: 15%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(7, 175, 133);
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.logout-btn{
+    width: 70%;
+    margin: auto auto;
+    height: 50px;
+    margin-left: 15%;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(230, 127, 10);
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 10px;
+}
